@@ -35,4 +35,11 @@ defmodule Cards do
   def contains?(deck, hand) do
     Enum.member?(deck, hand)
   end
+
+  @doc """
+    my hand is always at index 0 and rest of deck at index 1
+  """
+  def deal(deck, hand_size) do
+    Enum.split(deck, hand_size)
+  end
 end
