@@ -19,3 +19,15 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/cards](https://hexdocs.pm/cards).
 
+
+## Run
+
+start
+`iex -S mix`
+
+`deck = Cards.create_deck`
+
+
+## Notes
+
+Code > Gets fed into > Elixir > transpiled into > Erlang > compiled and executed > BEAM (Erlang Virtual Machine)
