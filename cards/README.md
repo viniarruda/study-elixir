@@ -31,3 +31,5 @@ start
 ## Notes
 
 Code > Gets fed into > Elixir > transpiled into > Erlang > compiled and executed > BEAM (Erlang Virtual Machine)
+
+Install new deps: `mix deps.get`
